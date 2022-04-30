@@ -1,0 +1,34 @@
+name: submission_3_restaurant_app
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.3.1
+  http: ^0.13.4
+  provider: ^6.0.2
+  sqflite: ^2.0.2
+  intl: ^0.17.0
+  android_alarm_manager_plus: ^2.0.5
+  flutter_local_notifications: ^9.4.0
+  rxdart: ^0.27.3
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Rockwell
+      fonts:
+        - asset: fonts/RockWell Normal.TTF
